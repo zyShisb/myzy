@@ -1,0 +1,170 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "楷体";
+  text-size-adjust: 100%; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+
+
+input {
+  -webkit-appearance: none; }
+html,body,.box{
+    width: 100%;
+    height: 100%;
+    background: #FADBCE;
+  }
+  .box{
+    overflow-y:scroll;
+  }
+.head{
+    position: relative;
+  }
+.head img{
+    width: 100%;
+    height: auto;
+}
+.head p{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top:60%;
+}
+.head p a{
+    flex: 1;
+    text-align:center;
+}
+.head p span{
+    display: block;
+    font-size: 16px;
+    color:#fff;
+}
+.head p b{
+    font-size: 16px;
+    color:yellow;
+}
+.dress{
+    position: absolute;
+    top:72%;
+    color:#ccc;
+    width: 100%;
+    text-align: center;
+}
+.txt{
+    width: 100%;
+    text-align: center;
+    height: .2rem;
+    position: absolute;
+    top:87%;
+}
+.txt input{
+    width: 70%;
+    height: .25rem;
+    background: #fff;
+    border-radius:5px;
+    padding-left: .1rem;
+    border:0;
+    font-size: .12rem;
+    color:#358994;
+}
+.tab{
+    width: 100%;
+    height: .36rem;
+    padding:0 5%;
+    margin-top:.1rem;
+    display: flex;
+}
+.tab a{
+    width: 30%;
+    height: .36rem;
+    background: #88CED5;
+    color:#fff;
+    border-radius:.18rem;
+    text-align: center;
+    line-height: .36rem;
+    margin:0 3%;
+}
+.main{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.pic{
+    width: 48%;
+    height: auto;
+}
+.pic:nth-child(odd){
+    margin:4% 2% 2% 0;
+
+}
+.pic:nth-child(even){
+    margin:4% 0 2% 2%;
+}
+.pic dl{
+    width: 100%;
+    height: 100%;
+}
+.pic dl dt{
+    width: 100%;
+    height:auto;
+}
+.pic dt img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+dd{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#E34646;
+}
+
+dd a:nth-child(1){
+    width: 70%;
+    height: 100%;
+}
+dd a:nth-child(2){
+    width: 30%;
+    text-align: center;
+    color:#fff;
+}
+dd a span{
+    height: 50%;
+    display: block;
+    background:#E79C81;
+    color:#fff;
+    padding-left:5px;
+    font-size: 12px;
+}
+
+
+
+
